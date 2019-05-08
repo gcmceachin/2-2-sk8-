@@ -10,20 +10,21 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   background-image: url("../images/bg.jpg");
 }
-.row{
-  position:relative;
+
+.row {
+  position: relative;
 }
+
 .col-lg-4-grid {
   background-image: url("../images/top-image.png"),
     url("../images/grid.png"), url("../images/peralta-logo.png");
-    border: solid 8px white;
+  border: solid 8px white;
 }
+
 .news {
   width: 160px;
   height: 80px;
   padding: 5px;
   border: 8px;
   background: white;
-}
-@media (min-width: 992px);
 }
