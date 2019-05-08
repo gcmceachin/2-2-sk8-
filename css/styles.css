@@ -41,16 +41,15 @@ left: 10px;
 max-width: 40%;
 
 }
-
+.accolades{
+  display:inline-block;
+}
 .hawk {
-  display: inline-block;
   background-color: #FBFBFB
 }
 .rodney {
-  display: inline-block;
   background-color: #FBFBFB
 }
 .ray {
-  display: inline-block;
   background-color: #FBFBFB
 }
