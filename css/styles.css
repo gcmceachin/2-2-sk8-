@@ -15,16 +15,42 @@ body {
   position: relative;
 }
 
-.col-lg-4-grid {
-  background-image: url("../images/top-image.png"),
-    url("../images/grid.png"), url("../images/peralta-logo.png");
-  border: solid 8px white;
+#carousel {
+  height: 350px;
+  min-height: 300px;
+  overflow: hidden;
+  background: url("./../images/top-image.png") no-repeat 35% 25%;
+  background-size: 150%;
+  border: solid 5px; color: #FDFDFD;
+
+
+}
+#carousel > div {
+  position: relative;
 }
 
-.news {
-  width: 160px;
-  height: 80px;
-  padding: 5px;
-  border: 8px;
-  background: white;
+#carousel .grid  {
+  opacity: 0.3;
+}
+#carousel .logo {
+  position: absolute;
+  top: 4%;
+transform: translate(50px);
+min-width: 150px;
+left: 10px;
+max-width: 40%;
+
+}
+
+.hawk {
+  display: inline-block;
+  background-color: #FBFBFB
+}
+.rodney {
+  display: inline-block;
+  background-color: #FBFBFB
+}
+.ray {
+  display: inline-block;
+  background-color: #FBFBFB
 }
