@@ -45,11 +45,16 @@ max-width: 40%;
   display:inline-block;
 }
 .hawk {
-  background-color: #FBFBFB
+  background-color: #FBFBFB;
 }
 .rodney {
-  background-color: #FBFBFB
+  background-color: #FBFBFB;
 }
 .ray {
-  background-color: #FBFBFB
+  background-color: #FBFBFB;
+}
+
+.contactus {
+  background-color: #FBFBFB;
+  display:inline-block;
 }
